@@ -8,8 +8,19 @@
     "start": "next start"
   },
   "dependencies": {
+    "@fontsource/cascadia-code": "^4.2.1",
+    "@popperjs/core": "^2.10.2",
+    "@svgr/webpack": "^5.5.0",
+    "@types/react": "^17.0.27",
+    "copy-to-clipboard": "^3.3.1",
     "next": "^11.0.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-fade-in": "^2.0.1",
+    "react-fader": "^3.1.1",
+    "react-popper": "^2.2.5",
+    "react-popper-tooltip": "^4.3.1",
+    "typescript": "^4.4.3",
+    "use-dencrypt-effect": "^1.0.2"
   }
 }

@@ -1,4 +1,9 @@
-@import url("http://fonts.cdnfonts.com/css/cascadia-code");
+@font-face {
+	font-family: "Cascadia Code";
+	font-style: normal;
+	font-weight: 400;
+	src: url("../fonts/CascadiaCode.woff2") format("woff2");
+}
 
 * {
 	margin: 0;

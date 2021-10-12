@@ -57,7 +57,7 @@ export function LinkRow() {
 			<Link Icon={github} link="Vizdun" url="https://github.com/Vizdun" />
 			<Link
 				Icon={tor}
-				link="vizdun5qsioy6uvp57b4zihtjwkbqnmixjco6wzic6rayztvjogzimyd.onion"
+				link="vizdun765cadfgvy2fnig25fxgdnzinbsvkvd4aenpcbyw267kuchyqd.onion"
 			/>
 			<Link Icon={discord} link="Miko#4118" />
 			<Link

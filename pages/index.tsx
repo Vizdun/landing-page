@@ -46,7 +46,7 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 				<meta
 					httpEquiv="onion-location"
-					content="http://vizdun5qsioy6uvp57b4zihtjwkbqnmixjco6wzic6rayztvjogzimyd.onion"
+					content="http://vizdun765cadfgvy2fnig25fxgdnzinbsvkvd4aenpcbyw267kuchyqd.onion"
 				/>
 			</Head>
 

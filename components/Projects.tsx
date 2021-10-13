@@ -17,6 +17,7 @@ import Vue from "../svgs/vue.svg"
 import Charts from "../svgs/charts.svg"
 import Sass from "../svgs/sass.svg"
 import Material from "../svgs/material.svg"
+import Next from "../svgs/next.svg"
 import { usePopperTooltip } from "react-popper-tooltip"
 
 import Fader from "react-fader"
@@ -36,6 +37,7 @@ enum ELanguage {
 	charts,
 	sass,
 	material,
+	next,
 }
 
 interface ILanguage {
@@ -82,6 +84,9 @@ const languages: ILanguage[] = [
 	{
 		name: "Material Design",
 	},
+	{
+		name: "Next.js",
+	},
 ]
 
 interface IProject {
@@ -92,6 +97,18 @@ interface IProject {
 }
 
 const projects: IProject[] = [
+	{
+		name: "landing-page",
+		lang: [
+			ELanguage.css,
+			ELanguage.html,
+			ELanguage.ts,
+			ELanguage.react,
+			ELanguage.next,
+		],
+		repo: "https://github.com/Vizdun/landing-page",
+		summary: "This very landing page.",
+	},
 	{
 		name: "pongjspp",
 		lang: [ELanguage.css, ELanguage.html, ELanguage.jspp, ELanguage.node],
@@ -228,6 +245,8 @@ function LanguageSvg(lang: ELanguage, props: any) {
 			return <Sass {...props} />
 		case ELanguage.material:
 			return <Material {...props} />
+		case ELanguage.next:
+			return <Next {...props} />
 		default:
 			return <Git {...props} />
 	}
